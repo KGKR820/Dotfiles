@@ -1,0 +1,62 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": false
+    }
+  },
+  "ensure_final_newline_on_save": false,
+  "title_bar": {
+    "show_branch_icon": true
+  },
+  "project_panel": {
+    "hide_root": true
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "scrollbar": {
+    "selected_symbol": true
+  },
+  "hover_popover_enabled": true,
+  "tabs": {
+    "file_icons": true
+  },
+  "format_on_save": "on",
+  "minimap": {
+    "show": "never"
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "disable_ai": true,
+  "prettier": {
+    "allowed": false
+  },
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "terminal": {
+    "working_directory": null,
+    "cursor_shape": "bar",
+    "blinking": "on"
+  },
+  "autosave": "on_focus_change",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "soft_wrap": "editor_width",
+  "base_keymap": "VSCode",
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "ui_font_size": 19.0,
+  "buffer_font_size": 19.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha"
+  }
+}
