@@ -1,0 +1,36 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=false
+shouldShowToolBarComingFromFullScreen=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+MenuBar=Disabled
+
+[Notification Messages]
+presentationInfo=false
+
+[Recent Files]
+File1[$e]=$HOME/Documents/DAA.pdf
+File2[$e]=$HOME/Documents/Books/TLCL-25.12.pdf
+File3[$e]=$HOME/Documents/DAA/3. Divide and Conquer Algorithms.pdf
+File4[$e]=$HOME/Documents/DAA/4. Comparison based Sorting Algorithms.pdf
+File5[$e]=$HOME/Coding/DAA/Assignments/Assign_6/Counting_Sort.png
+File6[$e]=$HOME/Coding/DAA/Assignments/Assign_6/Radix_Sort.png
+File7[$e]=$HOME/Documents/DAA .pdf
+File8[$e]=$HOME/Documents/CN.pdf_original
+File9[$e]=$HOME/Documents/CN.pdf
+Name1[$e]=DAA.pdf
+Name2[$e]=TLCL-25.12.pdf
+Name3[$e]=3. Divide and Conquer Algorithms.pdf
+Name4[$e]=4. Comparison based Sorting Algorithms.pdf
+Name5[$e]=Counting_Sort.png
+Name6[$e]=Radix_Sort.png
+Name7[$e]=DAA .pdf
+Name8[$e]=CN.pdf_original
+Name9[$e]=CN.pdf

@@ -11,3 +11,5 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source ~/Scripts/run.sh
 alias maria="sudo systemctl start mariadb && sudo mariadb -u root -p; sudo systemctl stop mariadb"
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
