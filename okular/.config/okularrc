@@ -17,6 +17,7 @@ presentationInfo=false
 
 [Recent Files]
 File1[$e]=$HOME/Documents/DAA.pdf
+File10[$e]=$HOME/Documents/DAA7.pdf
 File2[$e]=$HOME/Documents/Books/TLCL-25.12.pdf
 File3[$e]=$HOME/Documents/DAA/3. Divide and Conquer Algorithms.pdf
 File4[$e]=$HOME/Documents/DAA/4. Comparison based Sorting Algorithms.pdf
@@ -26,6 +27,7 @@ File7[$e]=$HOME/Documents/DAA .pdf
 File8[$e]=$HOME/Documents/CN.pdf_original
 File9[$e]=$HOME/Documents/CN.pdf
 Name1[$e]=DAA.pdf
+Name10[$e]=DAA7.pdf
 Name2[$e]=TLCL-25.12.pdf
 Name3[$e]=3. Divide and Conquer Algorithms.pdf
 Name4[$e]=4. Comparison based Sorting Algorithms.pdf

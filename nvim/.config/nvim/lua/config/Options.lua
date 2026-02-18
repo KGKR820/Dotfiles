@@ -4,6 +4,9 @@ opt.number = true
 opt.relativenumber = true
 opt.wrap = true
 
+-- Border when S-k is pressed on keyword
+opt.winborder = "rounded"
+
 -- Auto-indenting and >>/<< commands use 2 spaces
 opt.shiftwidth = 2
 
@@ -43,11 +46,11 @@ opt.scrolloff = 10
 opt.smoothscroll = true
 
 -- Briefly flash a highlight over yanked (copied) text
-vim.api.nvim_create_autocmd("TextYankPost",{
-  group = vim.api.nvim_create_augroup("YankHighlight",{clear = true}),
-  pattern = "*",
-  callback= function()
-    vim.highlight.on_yank()
-  end,
-  desc = "Highlight yank",
+vim.api.nvim_create_autocmd("TextYankPost", {
+	group = vim.api.nvim_create_augroup("YankHighlight", { clear = true }),
+	pattern = "*",
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+	desc = "Highlight yank",
 })
