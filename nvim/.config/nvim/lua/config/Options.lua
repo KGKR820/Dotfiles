@@ -3,6 +3,7 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 opt.wrap = true
+opt.autoread = true -- auto update file if changed outside of nvim
 
 -- Border when S-k is pressed on keyword
 opt.winborder = "rounded"
@@ -17,7 +18,13 @@ opt.tabstop = 2
 opt.clipboard = "unnamedplus"
 
 opt.smarttab = true
-opt.autoindent = true
+opt.autoindent = true-- show cursorline only in active window enable
+vim.api.nvim_create_autocmd({ "WinEnter", "BufEnter" }, {
+	group = vim.api.nvim_create_augroup("active_cursorline", { clear = true }),
+	callback = function()
+		vim.opt_local.cursorline = true
+	end,
+})
 opt.smartindent = true
 
 -- Remember undo's for files
