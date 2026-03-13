@@ -25,5 +25,7 @@
   <!--Action name="file_open_recent" /-->
   <!--Action name="file_print" /-->
  </ToolBar>
- <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Default">
+  <Action name="fullscreen" shortcut="Ctrl+Shift+F; F"/>
+ </ActionProperties>
 </gui>

@@ -1,9 +1,9 @@
 MenuBar=Disabled
 
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
 shouldShowMenuBarComingFromFullScreen=false
-shouldShowToolBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=false
 
 [General]
 LockSidebar=true
@@ -13,16 +13,50 @@ ShowSidebar=true
 MenuBar=Disabled
 
 [Notification Messages]
+ShowTabWarning=true
 presentationInfo=false
 
 [Recent Files]
 File1[$e]=$HOME/Documents/CGV/GVC06 Intro Transformations - Classes.pdf
-File2[$e]=$HOME/Documents/CGV/GVC05 AntiAliasing.pdf
-File3[$e]=$HOME/Pictures/Screenshots/output.pdf
-File4[$e]=$HOME/Pictures/Screenshots/PPL_Quiz.pdf
-File5[$e]=$HOME/Downloads/Ass3.pdf
+File10[$e]=$HOME/Documents/PPL/Names-Bindings-and-Scopes.pdf
+File11[$e]=$HOME/Documents/PPL/Data-Types.pdf
+File12[$e]=$HOME/Documents/PPL/Expressions.pdf
+File13[$e]=$HOME/Documents/PPL/Subprograms (1).pdf
+File14[$e]=$HOME/Pictures/Screenshots/Network_Layer.pdf
+File15[$e]=$HOME/Pictures/Screenshots/CN.pdf
+File16[$e]=$HOME/Documents/CN/notes-midsem.pdf
+File17[$e]=$HOME/Documents/CN/DocScanner 7 Mar 2026 10-05 pm.pdf
+File18[$e]=$HOME/Documents/CN/CN.pdf
+File19[$e]=$HOME/Documents/CN/Network_Layer.pdf
+File2[$e]=$HOME/Documents/Installed.txt
+File20[$e]=$HOME/Documents/CN/Cn(Pre_MidSem).pdf
+File3[$e]=$HOME/Documents/PPL/PPL_Quiz.pdf
+File4[$e]=$HOME/Documents/DAA/3. Divide and Conquer Algorithms.pdf
+File5[$e]=$HOME/Documents/DAA/4. Comparison based Sorting Algorithms.pdf
+File6[$e]=$HOME/Documents/DAA/5. Randomized Algorithms.pdf
+File7[$e]=$HOME/Documents/DAA/6. Linear Time Sorting Algorithms.pdf
+File8[$e]=$HOME/Documents/DAA/8. Greedy Algorithms.pdf
+File9[$e]=$HOME/Documents/DAA/7. Dynamic Programming.pdf
 Name1[$e]=GVC06 Intro Transformations - Classes.pdf
-Name2[$e]=GVC05 AntiAliasing.pdf
-Name3[$e]=output.pdf
-Name4[$e]=PPL_Quiz.pdf
-Name5[$e]=Ass3.pdf
+Name10[$e]=Names-Bindings-and-Scopes.pdf
+Name11[$e]=Data-Types.pdf
+Name12[$e]=Expressions.pdf
+Name13[$e]=Subprograms (1).pdf
+Name14[$e]=Network_Layer.pdf
+Name15[$e]=CN.pdf
+Name16[$e]=notes-midsem.pdf
+Name17[$e]=DocScanner 7 Mar 2026 10-05 pm.pdf
+Name18[$e]=CN.pdf
+Name19[$e]=Network_Layer.pdf
+Name2[$e]=Installed.txt
+Name20[$e]=Cn(Pre_MidSem).pdf
+Name3[$e]=PPL_Quiz.pdf
+Name4[$e]=3. Divide and Conquer Algorithms.pdf
+Name5[$e]=4. Comparison based Sorting Algorithms.pdf
+Name6[$e]=5. Randomized Algorithms.pdf
+Name7[$e]=6. Linear Time Sorting Algorithms.pdf
+Name8[$e]=8. Greedy Algorithms.pdf
+Name9[$e]=7. Dynamic Programming.pdf
+
+[UiSettings]
+ColorScheme=BreezeDark

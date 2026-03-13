@@ -1,10 +1,20 @@
 return {
   { 
-	"rose-pine/neovim",
-	name = "rose-pine",
-	config = function()
-		vim.cmd("colorscheme rose-pine-main")
-	end
+  "catppuccin/nvim",
+  name = "catppuccin",
+  priority = 1000, 
+  config = function()
+		require("catppuccin").setup({
+			color_overrides={
+				mocha = {
+					base = "#141415",   -- The "Vague" muted black
+          mantle = "#111112", -- Slightly darker for contrast
+          crust = "#0f0f10",  -- Even darker for UI depth
+				}
+	}
+		})
+    vim.cmd.colorscheme "catppuccin-mocha"
+  end
 },
 {
  "nvim-tree/nvim-web-devicons", 
